@@ -1,0 +1,27 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.description {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
