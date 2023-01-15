@@ -1,11 +1,6 @@
 import { ReactNode } from 'react';
 import styles from './ListItem.module.css';
 
-export type ListItemOption = {
-  label: string;
-  onClick: () => void;
-};
-
 type ListItemProps = {
   children: ReactNode;
   onClick: () => void;

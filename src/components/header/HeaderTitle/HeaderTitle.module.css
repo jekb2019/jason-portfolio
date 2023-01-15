@@ -1,0 +1,15 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.75em;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+.logo {
+  width: 40px;
+}

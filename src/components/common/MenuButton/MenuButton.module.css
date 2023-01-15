@@ -1,0 +1,13 @@
+.verticalMenuToggleBtn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: scale 0.1s;
+}
+
+.verticalMenuToggleBtn:hover {
+  scale: 1.1;
+}

@@ -1,4 +1,4 @@
-import { ListItemOption } from '../../components/listItem/ListItem';
+import { ListItemOption } from '../../types/navBarTypes';
 
 export const menuOptions: ListItemOption[] = [
   {

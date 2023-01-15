@@ -1,0 +1,21 @@
+.verticalMenuContainer {
+  overflow: hidden;
+}
+
+.verticalMenuContainer {
+  height: auto;
+  max-height: 0px;
+  transition: max-height 0.3s;
+}
+
+.verticalMenu {
+  text-align: center;
+  background-color: var(--color-grey);
+  text-decoration: none;
+  padding: 0px 20px 40px 20px;
+  transition: max-height 0.5s;
+}
+
+.verticalMenuOpen {
+  max-height: 600px;
+}
