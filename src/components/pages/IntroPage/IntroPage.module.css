@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 17px;
-  padding-bottom: 50px;
+  padding: 10px 10px 50px 10px;
 }
 
 .profile {
@@ -24,4 +24,11 @@
   font-weight: 500;
   color: var(--color-white);
   margin-bottom: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 2.3em;
+  }
 }
