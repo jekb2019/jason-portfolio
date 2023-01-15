@@ -1,0 +1,6 @@
+.overallWrapper {
+  /* height: 100vh; */
+  height: 200vh;
+  background: url('assets/images/background.png') center/cover;
+  background-attachment: fixed;
+}
