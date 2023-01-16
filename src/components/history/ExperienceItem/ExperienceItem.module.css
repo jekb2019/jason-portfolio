@@ -37,7 +37,7 @@
 
 .url {
   text-decoration: none;
-  background-color: var(--color-light-gray);
+  background-color: var(--color-light-grey);
   color: var(--color-white);
   border-radius: 20px;
   padding: 1px 8px;
@@ -64,7 +64,7 @@
   margin-bottom: 7px;
   width: 30px;
   height: 2px;
-  background-color: var(--color-light-gray);
+  background-color: var(--color-light-grey);
   border: none;
 }
 

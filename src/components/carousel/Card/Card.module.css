@@ -19,13 +19,13 @@
 }
 
 .iconWrapper:hover {
-  border-color: var(--color-light-gray);
+  border-color: var(--color-light-grey);
 }
 
 .iconWrapper:hover .icon {
   scale: 1.2;
   transform: rotate(-15deg);
-  color: var(--color-light-gray);
+  color: var(--color-light-grey);
 }
 
 .icon {
