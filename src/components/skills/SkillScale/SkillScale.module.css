@@ -1,0 +1,26 @@
+.container {
+  color: var(--color-white);
+  width: 100%;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+}
+
+.bar {
+  position: relative;
+  margin-top: 3px;
+  height: 3px;
+  background-color: var(--color-grey);
+  border-radius: 4px;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-orange);
+  height: 100%;
+}

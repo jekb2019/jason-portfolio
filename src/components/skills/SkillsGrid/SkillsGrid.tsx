@@ -1,12 +1,21 @@
-import { others, tools } from '../../../data/skills';
+import { others, skills, tools } from '../../../data/skills';
 import GridContent from '../GridContent/GridContent';
+import SkillScale from '../SkillScale/SkillScale';
 import styles from './SkillsGrid.module.css';
 
 const SkillsGrid = () => (
   <article className={styles.grid}>
     <div className={styles.left}>
       <GridContent label="Top Skills" backgroundColor="#4d4d4d">
-        <div></div>
+        <div className={styles.scaleWrapper}>
+          {skills.map((skill, idx) => (
+            <SkillScale
+              key={idx}
+              label={skill.name}
+              percentage={skill.competence}
+            />
+          ))}
+        </div>
       </GridContent>
     </div>
     <div className={styles.right}>

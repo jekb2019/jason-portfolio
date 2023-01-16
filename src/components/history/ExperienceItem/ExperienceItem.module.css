@@ -81,3 +81,9 @@
   color: var(--color-grey);
   margin-bottom: 2px;
 }
+
+@media only screen and (max-width: 550px) {
+  .url {
+    display: none;
+  }
+}

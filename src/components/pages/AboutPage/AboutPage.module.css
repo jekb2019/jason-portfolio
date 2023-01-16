@@ -16,3 +16,9 @@
   max-width: 1200px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .page {
+    padding: 80px 20px;
+  }
+}
