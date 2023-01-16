@@ -1,7 +1,14 @@
 import uoaLogo from '../assets/images/history/uoa_logo.png';
 import msLogo from '../assets/images/history/ms_logo.png';
 
-export const education = [
+type Education = {
+  logoImg: string;
+  institution: string;
+  major: string;
+  periods: string[];
+};
+
+export const education: Education[] = [
   {
     logoImg: uoaLogo,
     institution: 'University of Auckland',
@@ -13,7 +20,7 @@ export const education = [
   },
 ];
 
-export const certificates = [
+export const certificates: Education[] = [
   {
     logoImg: msLogo,
     institution: 'Microsoft Certified: Azure Fundamentals',
