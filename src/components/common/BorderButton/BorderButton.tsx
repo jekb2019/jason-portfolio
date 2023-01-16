@@ -24,6 +24,7 @@ const BorderButton = ({
       padding,
       fontSize,
     }}
+    onClick={onClick}
   >
     {children}
   </button>
