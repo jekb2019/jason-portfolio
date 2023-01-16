@@ -1,5 +1,7 @@
 import styles from './AboutPage.module.css';
 
+import Carousel from '../../common/Carousel/Carousel';
+
 const AboutPage = () => (
   <section className={styles.page}>
     <h2 className={styles.title}>About Me</h2>
@@ -10,10 +12,7 @@ const AboutPage = () => (
       eventually reaching an innovation from the contributions we, as a team,
       make.
     </p>
-    <div className={styles.cards}>
-      {/* Frontend (React, React Native, Gatsby, ) */}
-      {/* Team work: collaboration with developers and designers, agile deveopment, communication */}
-    </div>
+    <Carousel />
   </section>
 );
 

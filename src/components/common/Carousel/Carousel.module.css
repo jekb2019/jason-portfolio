@@ -1,0 +1,19 @@
+.carousel {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.card {
+}

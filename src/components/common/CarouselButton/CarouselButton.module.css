@@ -1,0 +1,36 @@
+.transitioner {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: var(--color-dark-grey);
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.transitioner:hover {
+  opacity: 0.8;
+}
+
+.transitioner:active {
+  opacity: 1;
+}
+
+.transitionIcon {
+  font-size: 2.5em;
+  color: var(--color-white);
+}
+
+.left {
+  top: calc(50% - 50px);
+  left: 10px;
+}
+
+.right {
+  top: calc(50% - 50px);
+  right: 10px;
+}
