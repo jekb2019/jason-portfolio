@@ -1,6 +1,6 @@
 import styles from './AboutPage.module.css';
 
-import Carousel from '../../common/Carousel/Carousel';
+import Carousel from '../../carousel/Carousel/Carousel';
 
 const AboutPage = () => (
   <section className={styles.page}>
