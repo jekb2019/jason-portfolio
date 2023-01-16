@@ -35,12 +35,7 @@ const HistoryItem = ({
       <b className={styles.title}>{roleTitle}</b>
       <div className={styles.organizationDetails}>
         <p className={styles.organization}>{organization}</p>
-        <a
-          className={styles.url}
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className={styles.url} href={url} target="blank">
           <FontAwesomeIcon icon={faLink} className={styles.linkIcon} />{' '}
           {displayedUrl}
         </a>
