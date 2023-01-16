@@ -16,25 +16,10 @@
   flex: 1;
 }
 
-.tools {
-  flex: 1;
-  background-color: var(--color-dark-grey);
-}
-
-.others {
-  flex: 1;
-  background-color: var(--color-grey);
-}
-
-.gridContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-}
-
-.skillType {
-  font-size: 1.2em;
+.list {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 1.1em;
   color: var(--color-white);
-  font-weight: 600;
+  text-align: center;
 }
