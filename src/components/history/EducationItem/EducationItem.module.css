@@ -1,0 +1,32 @@
+.historyItem {
+  display: flex;
+}
+
+.imgWrapper {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.imgWrapper img {
+  width: 50px;
+}
+
+.infoWrapper {
+  padding: 10px;
+}
+
+.title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.major {
+  color: var(--color-grey);
+  margin-bottom: 10px;
+}
+
+.period {
+  color: var(--color-grey);
+}

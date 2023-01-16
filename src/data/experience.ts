@@ -1,5 +1,6 @@
 import wdccLogo from '../assets/images/history/wdcc_logo.png';
 import rosterlabLogo from '../assets/images/history/rosterlab_logo.png';
+import youtubeLogo from '../assets/images/history/youtube_logo.png';
 import csHealthLogo from '../assets/images/history/cshealth_logo.png';
 // import takaLogo from '../assets/images/history/taka_logo.png';
 // import nwnwLogo from '../assets/images/history/nwnw_logo.png';
@@ -43,6 +44,17 @@ export const experience: Experience[] = [
       'Zustand',
       'Git',
     ],
+  },
+  {
+    logoImg: youtubeLogo,
+    roleTitle: 'Youtube Creator',
+    organization: 'Star Coding (별코딩) Channel',
+    url: 'https://www.youtube.com/@starcoding',
+    displayedUrl: 'youtube.com/@starcoding',
+    period: 'May 2021 - Present',
+    workingType: '',
+    description:
+      'Star Coding (별코딩) is a korean-language channel where I upload coding tutorials. I like creating videos teaching front-end stacks including React.js, Javascript, and HTML/CSS',
   },
   {
     logoImg: wdccLogo,

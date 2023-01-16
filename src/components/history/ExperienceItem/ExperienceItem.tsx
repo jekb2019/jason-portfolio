@@ -1,6 +1,6 @@
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styles from './HistoryItem.module.css';
+import styles from './ExperienceItem.module.css';
 
 type HistoryItemProps = {
   logo: string;
@@ -32,7 +32,7 @@ const HistoryItem = ({
       <img src={logo} alt={`${organization} logo`} />
     </div>
     <div className={styles.infoWrapper}>
-      <b className={styles.roleTitle}>{roleTitle}</b>
+      <b className={styles.title}>{roleTitle}</b>
       <div className={styles.organizationDetails}>
         <p className={styles.organization}>{organization}</p>
         <a className={styles.url} href={url} target="_blank">
