@@ -1,0 +1,83 @@
+.historyItem {
+  display: flex;
+}
+
+.imgWrapper {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.imgWrapper img {
+  width: 50px;
+}
+
+.infoWrapper {
+  padding: 10px;
+}
+
+.roleTitle {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.organizationDetails {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.organization {
+  color: var(--color-dark-grey);
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.url {
+  text-decoration: none;
+  background-color: var(--color-light-gray);
+  color: var(--color-white);
+  border-radius: 20px;
+  padding: 1px 8px;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.url:hover {
+  background-color: var(--color-grey);
+}
+
+.linkIcon {
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+.period {
+  font-size: 1em;
+  color: var(--color-grey);
+}
+
+.dividor {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  width: 30px;
+  height: 2px;
+  background-color: var(--color-light-gray);
+  border: none;
+}
+
+.description {
+  margin-bottom: 10px;
+  color: var(--color-grey);
+}
+
+.bold {
+  color: var(--color-black);
+}
+
+.listing {
+  color: var(--color-grey);
+  margin-bottom: 2px;
+}

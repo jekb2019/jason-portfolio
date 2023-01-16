@@ -1,6 +1,7 @@
 import styles from './AboutPage.module.css';
 
 import Carousel from '../../carousel/Carousel/Carousel';
+import History from '../../history/History/History';
 
 const AboutPage = () => (
   <section className={styles.page}>
@@ -13,6 +14,7 @@ const AboutPage = () => (
       make.
     </p>
     <Carousel />
+    <History />
   </section>
 );
 
