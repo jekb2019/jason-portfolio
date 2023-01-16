@@ -1,4 +1,5 @@
 import styles from './App.module.css';
+import ToTopButton from './components/common/ToTopButton/ToTopButton';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header/Header';
 import AboutPage from './components/pages/AboutPage/AboutPage';
@@ -17,6 +18,7 @@ function App() {
       <MyWorkPage />
       <TestimonialPage />
       <Footer email="jekb2019@gmail.com" />
+      <ToTopButton />
     </div>
   );
 }
