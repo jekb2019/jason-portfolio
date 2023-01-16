@@ -1,43 +1,10 @@
 import styles from './Carousel.module.css';
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import Card from '../Card/Card';
 import { faCaretLeft, faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { useRef, useState } from 'react';
 import { roundToPreviousInteger } from '../../../utils/numbers';
 import CarouselButton from '../CarouselButton/CarouselButton';
-
-const cardsInfo = [
-  {
-    icon: faHtml5,
-    title: '1',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-  {
-    icon: faHtml5,
-    title: '2',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-  {
-    icon: faHtml5,
-    title: '3',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-  {
-    icon: faHtml5,
-    title: '4',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-  {
-    icon: faHtml5,
-    title: '5',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-  {
-    icon: faHtml5,
-    title: '6',
-    description: 'HTML, CSS, JavaScript | React | React Native | UI/UX',
-  },
-];
+import { cardsInfo } from '../../../data/cardsInfo';
 
 export type Direction = 'left' | 'right';
 
