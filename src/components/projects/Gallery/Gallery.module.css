@@ -61,3 +61,12 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 500px) {
+  .item {
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 270px;
+    max-height: 270px;
+  }
+}
