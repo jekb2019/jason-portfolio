@@ -7,7 +7,6 @@ export function scrollIntoView(anchorId: string) {
       element.getBoundingClientRect().top +
       window.pageYOffset +
       SCROLL_TO_VIEW_OFFSET * -1;
-    console.log(y);
     window.scrollTo({ top: y, behavior: 'smooth' });
   }
 }
