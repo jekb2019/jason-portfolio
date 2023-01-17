@@ -3,6 +3,7 @@ import GalleryButton from '../../common/GalleryButton/GalleryButton';
 import styles from './ProjectGallery.module.css';
 import { service, tutorials } from '../../../data/projects';
 import Gallery from '../Gallery/Gallery';
+import { capitalizeFirstLetter } from '../../../utils/general';
 
 type ViewType = 'all' | 'service' | 'tutorials';
 
@@ -54,7 +55,7 @@ const ProjectGallery = () => {
               }, 300);
             }}
           >
-            {viewName}
+            {capitalizeFirstLetter(viewName)}
           </GalleryButton>
         ))}
       </div>
