@@ -1,3 +1,4 @@
+import ProjectGallery from '../../projects/ProjectGallery/ProjectGallery';
 import styles from './MyWorkPage.module.css';
 
 const MyWorkPage = () => (
@@ -6,6 +7,7 @@ const MyWorkPage = () => (
     <p className={styles.description}>
       I enjoy doing side projects in my spare time.
     </p>
+    <ProjectGallery />
   </section>
 );
 

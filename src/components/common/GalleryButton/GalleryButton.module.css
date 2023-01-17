@@ -1,0 +1,48 @@
+.button {
+  position: relative;
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 8px 48px;
+  border: 1px solid var(--color-light-grey);
+  background-color: var(--color-white);
+  color: var(--color-dark-grey);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.button:hover {
+  scale: 0.9;
+}
+
+.button:hover .number {
+  opacity: 1;
+  top: 2px;
+}
+
+.active {
+  background-color: var(--color-light-grey);
+  color: var(--color-white);
+}
+
+.active .number {
+  opacity: 1;
+  top: 2px;
+}
+
+.number {
+  position: absolute;
+  right: 5px;
+  top: -10px;
+  opacity: 0;
+  background-color: var(--color-orange);
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s;
+}

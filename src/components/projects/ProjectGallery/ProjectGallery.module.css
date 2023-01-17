@@ -1,0 +1,15 @@
+.gallery {
+  max-width: 1200px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galleryContainer {
+  width: 100%;
+  transition: all 0.1s;
+}
