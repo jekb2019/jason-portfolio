@@ -4,7 +4,9 @@ import { testimonials } from '../../../data/testimonials';
 
 const TestimonialPage = () => (
   <section className={styles.page}>
-    <h2 className={styles.title}>Testimonials</h2>
+    <h2 className={styles.title} data-anchor="testimonial-page">
+      Testimonials
+    </h2>
     <p className={styles.description}>See what they say about me</p>
     {testimonials.map((item, idx) => (
       <Testimonial

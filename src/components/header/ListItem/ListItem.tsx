@@ -9,9 +9,7 @@ type ListItemProps = {
 const ListItem = ({ children, onClick }: ListItemProps) => {
   return (
     <li className={styles.item} onClick={onClick}>
-      <a href="/#" className={styles.label}>
-        {children}
-      </a>
+      <span className={styles.label}>{children}</span>
     </li>
   );
 };

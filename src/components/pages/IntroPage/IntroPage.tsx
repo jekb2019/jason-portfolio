@@ -1,6 +1,7 @@
 import styles from './IntroPage.module.css';
 import profile from '../../../assets/images/profile.png';
 import BorderButton from '../../common/BorderButton/BorderButton';
+import { scrollToBottom } from '../../../service/scroll/scroll';
 
 const IntroPage = () => (
   <section className={styles.page}>
@@ -16,7 +17,9 @@ const IntroPage = () => (
       color="white"
       padding="8px 12px"
       fontSize="1.1rem"
-      onClick={() => {}}
+      onClick={() => {
+        scrollToBottom();
+      }}
     >
       Contact Me
     </BorderButton>

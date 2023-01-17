@@ -4,9 +4,14 @@ import styles from './VerticalNavbar.module.css';
 
 type VerticalNavbarProps = BaseNavBar & {
   isMenuOpen: boolean;
+  toggleVerticalMenu: () => void;
 };
 
-const VerticalNavbar = ({ menuOptions, isMenuOpen }: VerticalNavbarProps) => (
+const VerticalNavbar = ({
+  menuOptions,
+  isMenuOpen,
+  toggleVerticalMenu,
+}: VerticalNavbarProps) => (
   <nav
     className={`${styles.verticalMenuContainer} ${
       isMenuOpen ? styles.verticalMenuOpen : null
@@ -14,7 +19,13 @@ const VerticalNavbar = ({ menuOptions, isMenuOpen }: VerticalNavbarProps) => (
   >
     <ul className={styles.verticalMenu}>
       {menuOptions.map((option, idx) => (
-        <ListItem key={idx} onClick={option.onClick}>
+        <ListItem
+          key={idx}
+          onClick={() => {
+            toggleVerticalMenu();
+            option.onClick();
+          }}
+        >
           {option.label}
         </ListItem>
       ))}

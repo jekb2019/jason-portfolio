@@ -5,4 +5,10 @@
   border-style: solid;
   border-radius: 6px;
   font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2s;
+}
+
+.button:hover {
+  scale: 1.1;
 }

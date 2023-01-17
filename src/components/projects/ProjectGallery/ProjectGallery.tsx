@@ -23,7 +23,7 @@ const getProjectData = (viewType: ViewType) => {
 };
 
 const makeGalleryInvisible = (element: HTMLDivElement) => {
-  element.style.transform = 'translateY(30px)';
+  element.style.transform = 'translateY(10px)';
   element.style.scale = '0.9';
   element.style.opacity = '0';
 };

@@ -1,28 +1,29 @@
 import { ListItemOption } from '../../types/navBarTypes';
+import { scrollIntoView, scrollToBottom, scrollToTop } from '../scroll/scroll';
 
 export const menuOptions: ListItemOption[] = [
   {
     label: 'Home',
-    onClick: () => console.log('Home'),
+    onClick: () => scrollToTop(),
   },
   {
     label: 'About',
-    onClick: () => console.log('About'),
+    onClick: () => scrollIntoView('about-page'),
   },
   {
     label: 'Skills',
-    onClick: () => console.log('Skills'),
+    onClick: () => scrollIntoView('skills-page'),
   },
   {
     label: 'My Work',
-    onClick: () => console.log('My Work'),
+    onClick: () => scrollIntoView('my-work-page'),
   },
   {
     label: 'Testimonial',
-    onClick: () => console.log('Testimonial'),
+    onClick: () => scrollIntoView('testimonial-page'),
   },
   {
     label: 'Contact',
-    onClick: () => console.log('Contact'),
+    onClick: () => scrollToBottom(),
   },
 ];

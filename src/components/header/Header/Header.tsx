@@ -71,6 +71,7 @@ const Header = ({ title }: HeaderProps) => {
         <VerticalNavbar
           menuOptions={menuOptions}
           isMenuOpen={isVerticalMenuOpen}
+          toggleVerticalMenu={toggleVerticalMenu}
         />
       )}
     </header>
