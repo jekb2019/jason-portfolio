@@ -1,6 +1,15 @@
+const SCROLL_TO_VIEW_OFFSET = 100;
+
 export function scrollIntoView(anchorId: string) {
   const element = document.querySelector(`[data-anchor=${anchorId}]`);
-  element && element.scrollIntoView({ behavior: 'smooth' });
+  if (element) {
+    const y =
+      element.getBoundingClientRect().top +
+      window.pageYOffset +
+      SCROLL_TO_VIEW_OFFSET * -1;
+    console.log(y);
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
 }
 
 export function scrollToTop() {
