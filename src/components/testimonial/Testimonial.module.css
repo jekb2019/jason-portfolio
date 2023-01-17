@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  gap: 30px;
+  padding: 30px;
+}
+
+.profileImg {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.speechBubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  max-width: 840px;
+  background-color: var(--color-white);
+  font-size: 1.1em;
+  padding: 0 20px;
+  border-radius: 15px;
+}
+
+.description {
+  margin-bottom: 10px;
+  color: var(--color-dark-grey);
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.reference {
+  color: var(--color-dark-grey);
+}
