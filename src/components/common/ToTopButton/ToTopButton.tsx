@@ -8,7 +8,7 @@ const ToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 600) {
+    if (window.scrollY > 200) {
       setShowButton(true);
     } else {
       setShowButton(false);
@@ -20,12 +20,11 @@ const ToTopButton = () => {
     return () => document.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
-  if (!showButton) {
-    return null;
-  }
-
   return (
-    <button className={styles.button} onClick={scrollToTop}>
+    <button
+      className={`${styles.button} ${showButton ? null : styles.invisible}`}
+      onClick={scrollToTop}
+    >
       <FontAwesomeIcon icon={faArrowUp} />
     </button>
   );

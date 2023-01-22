@@ -12,10 +12,10 @@
   border: none;
   outline: none;
   z-index: 5;
-  opacity: 0.8;
   transition: opacity 0.3s;
+  opacity: 1;
 }
 
-.button:hover {
-  opacity: 1;
+.invisible {
+  opacity: 0;
 }
