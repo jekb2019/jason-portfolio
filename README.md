@@ -1,5 +1,5 @@
 # Depoyment
-Refer to this: https://github.com/gitname/react-gh-pages
+[Website](https://jekb2019.github.io/jason-portfolio/)
 
 # To Update
 * About me: blurbs
